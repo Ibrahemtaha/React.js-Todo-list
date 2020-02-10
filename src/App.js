@@ -42,9 +42,9 @@ class App extends Component {
             <h3 className="text-capitalize text-center">todo input</h3>
             <TodoInput
               item={this.state.item}
+              editItem={this.state.editItem}
               handleChange={this.handleChange}
               handleSubmit={this.handleSubmit}
-              editItem={this.state.editItem}
             />
             <TodoList
               items={this.state.items}
